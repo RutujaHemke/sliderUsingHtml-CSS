@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.carusel{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(218, 154, 154);
+    overflow: hidden;
+    position: relative;
+}
+
+.slider{
+    width: 600%;
+    height: 550px;
+   /* background-color: green;*/
+    display: flex;
+    animation-name: slider;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+
+.element{
+    height: 550px;
+    width: 16.6666666667%;
+   /* background-color: rgb(231, 231, 175);*/
+}
+
+@keyframes slider{
+    20%{
+        margin-left: -100%;
+    }
+    40%{
+        margin-left: -200%;
+    }
+    60%{
+        margin-left: -300%;
+    }
+    80%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -500%;
+    }
+}
+.dot-notation{
+    height: 30px;
+    width: 100%;
+    /*background-color:black;*/
+    background-color: rgba(34, 32, 32, 0.5);
+    position:absolute;
+    left:0px;
+    bottom: 90px;
+    display:flex;
+    justify-content: center;
+}
+.dot-container{
+    height: 30px;
+    width: 10%;
+    /*background-color: #0af529;*/
+}
+li{
+    font-size: larger;
+    width: 10px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.dot-pointer1{
+    animation-name: slider_pointer1;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+@keyframes slider_pointer1{
+    20%{
+        
+        color: black;
+    }
+    40%{
+        
+        color:white;
+    }
+    60%{
+        
+        color:white;
+    }
+    80%{
+        
+        color:white;
+    }
+    100%{
+    
+        color:white;
+    }
+}
+
+.dot-pointer2{
+    animation-name: slider_pointer2;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+@keyframes slider_pointer2{
+    20%{
+        
+        color: white;
+    }
+    40%{
+        
+        color:black;
+    }
+    60%{
+        
+        color:white;
+    }
+    80%{
+        
+        color:white;
+    }
+    100%{
+    
+        color:white;
+    }
+}
+
+.dot-pointer3{
+    animation-name: slider_pointer3;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+@keyframes slider_pointer3{
+    20%{
+        
+        color: white;
+    }
+    40%{
+        
+        color:white;
+    }
+    60%{
+        
+        color:black;
+    }
+    80%{
+        
+        color:white;
+    }
+    100%{
+    
+        color:white;
+    }
+}
+
+.dot-pointer4{
+    animation-name: slider_pointer4;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+@keyframes slider_pointer4{
+    20%{
+        
+        color: white;
+    }
+    40%{
+        
+        color:white;
+    }
+    60%{
+        
+        color:white;
+    }
+    80%{
+        
+        color:black;
+    }
+    100%{
+    
+        color:white;
+    }
+}
+
+.dot-pointer5{
+    animation-name: slider_pointer5;
+    animation-duration: 14s;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+@keyframes slider_pointer5{
+    20%{
+        
+        color: white;
+    }
+    40%{
+        
+        color:white;
+    }
+    60%{
+        
+        color:white;
+    }
+    80%{
+        
+        color:white;
+    }
+    100%{
+    
+        color:black;
+    }
+}
